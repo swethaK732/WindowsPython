@@ -21,9 +21,9 @@ lambda_client = boto3.client('lambda')
 END_TIME = datetime.now(timezone.utc)
 START_TIME = END_TIME - timedelta(minutes=5)
 
-# -------------------------------
+# --------------------------------
 # SMTP Configuration
-# -------------------------------
+# --------------------------------
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USERNAME = "ksswetha732@gmail.com"
